@@ -8,7 +8,7 @@ def handle_media(update, context):
 
 
 if __name__ == '__main__':
-    updater = Updater(token=os.environ['TELEGRAM_TOKEN'], use_context=True)
+    updater = Updater(token=os.environ['5921944522:AAFPEk-0oCuNNEdH8vgc54uqxremCjEO1TM'], use_context=True)
     dispatcher = updater.dispatcher
     media_handler = MessageHandler(Filters.media, handle_media)
     dispatcher.add_handler(media_handler)
